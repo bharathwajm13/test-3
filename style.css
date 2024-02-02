@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    background-color: #09182f;
+    width: 50%;
+    height: 90vh;
+}
+.right h2{
+    font-family: 'Poppins';
+    color: #fffbf9;
+    font-weight: 200;
+    font-size: 45px;
+    padding: 10rem 2rem 0 8rem;
+}
+.right h4{
+    color: #8c95a7;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: 200;
+    padding:2rem 0 0 8rem;
+}
+form{
+    margin: 80px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input[type="text"],input[type="email"],input[type="phone"]{
+    padding: 10px;
+    border: 2px solid #e2e2e2;
+    width: 100%;
+    border-radius: 3px;
+}
+#field{
+    padding: 10px;
+    border: 2px solid #e2e2e2;
+    width: 100%;
+    border-radius: 3px;
+    color: #a2a7a7;
+}
+.form_wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+label{
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    color: #a2a7a7;
+}
+.btn{
+    padding-left: 20%;
+}
+button{
+    padding: 10px;
+    border-radius: 3px;
+    width: 60%;
+    left: -10px;
+    background-color: #ef2c3c;
+    color: #fffbf9;
+    border: none;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+#tel{
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #e2e2e2;
+}
+input:valid+label,input:focus+label{
+    background: white;
+    color: #ef2c3c;
+    transform: translate(10px,-20px);
+    padding: 2px 5px;
+    font-size: 12px;
+    border-color: #ef2c3c;
+}
+.footer{
+    padding: 20px;
+    font-size: 18px;
+}
+.footer a{
+    color: #ef2c3c;
+}
